@@ -8,7 +8,7 @@ const highNumber = parseInt (inputHigh) ;
 
 
 
-if (highNumber) {
+if (highNumber && lowNumber) {
   // Use Math.random() and the user's number to generate a random number
   const randomNumber = Math. floor ( Math.random() * (highNumber - lowNumber + 1 ) ) + lowNumber;
 
